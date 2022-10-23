@@ -24,4 +24,5 @@ Für MinGW hab ich den Command benutzt
 
 ## Bei Fragen oder Problemen
 Ich bin erreichbar über Twitter: @ZocktJuri
+
 Sonst können Probleme auch im Issues Tab besprochen werden
