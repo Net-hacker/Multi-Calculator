@@ -12,16 +12,16 @@ Ein Rechner der nicht nur Addieren, Subtrahieren, Multiplizieren und Dividieren 
 Weitere Funktionen folgen...
 
 ## Wie benutze ich ihn?
-Bis jetzt bin ich an der Arbeit das es eine .exe gibt die Überall funktioniert aber bis dahin,
-wird ein Compiler benötigt.
+Man lädt sich die Multi-Calculator.exe herunter und startet sie
 
-Windows MinGW:
+Executable für Linux folgt noch...
+
+## Wenn man es selber compilen will?
+Für MinGW hab ich den Command benutzt
 ```
-> Run_MinGW.bat
-> Multi-Calculator.exe
+> g++ -I Logic -static-libgcc -static-libstdc++ Multi-Calc.cpp -o Multi-Calculator
 ```
 
-## Experimentell
-Ihr könnt versuchen die Multi-Calculator.exe die unter Releases ist zu verwenden aber,
-ich bin mir nicht sicher ob sie funktioniert.
-Wenn ihr wisst wie man die .exe zum laufen bekommt ohne die C++ Runtimes meldet euch bei mir auf Twitter @ZocktJuri
+## Bei Fragen oder Problemen
+Ich bin erreichbar über Twitter: @ZocktJuri
+Sonst können Probleme auch im Issues Tab besprochen werden
