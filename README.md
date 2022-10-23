@@ -30,7 +30,7 @@ Windows GCC:
 Linux:
 ```
 $ Run_GCC.sh
-& ./Multi-Calculator
+$ ./Multi-Calculator
 ```
 
 ## Experimentell
