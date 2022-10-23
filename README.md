@@ -34,5 +34,5 @@ $ ./Multi-Calculator
 ```
 
 ## Experimentell
-Ihr könnt versuchen die Multi-Calculator.exe die ich mit Hochgeladen habe zu nutzen aber,
-ich bin mir nicht sicher ob sie funktioniert!
+Ihr könnt versuchen die Multi-Calculator.exe die unter Releases ist zu verwenden aber,
+ich bin mir nicht sicher ob sie funktioniert
