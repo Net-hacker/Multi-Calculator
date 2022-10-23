@@ -21,18 +21,6 @@ Windows MinGW:
 > Multi-Calculator.exe
 ```
 
-Windows GCC:
-```
-> Run_GCC.bat
-> Multi-Calculator.exe
-```
-
-Linux:
-```
-$ Run_GCC.sh
-$ ./Multi-Calculator
-```
-
 ## Experimentell
 Ihr könnt versuchen die Multi-Calculator.exe die unter Releases ist zu verwenden aber,
 ich bin mir nicht sicher ob sie funktioniert
