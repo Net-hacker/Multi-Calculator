@@ -23,4 +23,5 @@ Windows MinGW:
 
 ## Experimentell
 Ihr könnt versuchen die Multi-Calculator.exe die unter Releases ist zu verwenden aber,
-ich bin mir nicht sicher ob sie funktioniert
+ich bin mir nicht sicher ob sie funktioniert.
+Wenn ihr wisst wie man die .exe zum laufen bekommt ohne die C++ Runtimes meldet euch bei mir auf Twitter @ZocktJuri
