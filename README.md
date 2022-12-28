@@ -7,10 +7,12 @@ Ein Rechner der nicht nur Addieren, Subtrahieren, Multiplizieren und Dividieren 
 - Potenzen, Zehnerpotenzen, Quadratwurzeln und Rechnungen mit Wurzeln
 - Prozente
 - Ohmesche Gesetz
-- Zinsen, Tageszinsen und Zinseszinsen
+- Zinsen, Tageszinsen und Zinseszinsen*
 - Trigeometrie
 
 Weitere Funktionen folgen...
+
+*Funktioniert zu dem Zeitpunkt nicht richtig ein Fix wird kommen
 
 ## Wie benutze ich ihn?
 Man lädt sich die Multi-Calculator.exe herunter und startet sie
