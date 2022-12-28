@@ -8,20 +8,24 @@ Ein Rechner der nicht nur Addieren, Subtrahieren, Multiplizieren und Dividieren 
 - Prozente
 - Ohmesche Gesetz
 - Zinsen, Tageszinsen und Zinseszinsen
+- Trigeometrie
 
 Weitere Funktionen folgen...
 
 ## Wie benutze ich ihn?
 Man lädt sich die Multi-Calculator.exe herunter und startet sie
 
-Executable für Linux folgt noch...
+Auf Linux führt man die Datei einfach über das Terminal aus
 
 ## Wenn man es selber compilen will?
 Für MinGW hab ich den Command benutzt
 ```
-> g++ -I Logic -static-libgcc -static-libstdc++ Multi-Calc.cpp -o Multi-Calculator
+> g++ -O3 -I Logic -static-libgcc -static-libstdc++ Multi-Calc.cpp -o Multi-Calculator
 ```
-
+Auf Linux
+```
+> g++ -O3 -w -I Logic -static-libgcc -static-libstdc++ Multi-Calc.cpp -o Multi-Calculator
+```
 ## Bei Fragen oder Problemen
 Ich bin erreichbar über Twitter: @ZocktJuri
 
