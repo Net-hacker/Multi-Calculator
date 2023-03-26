@@ -12,6 +12,14 @@ Ein Rechner der nicht nur Addieren, Subtrahieren, Multiplizieren und Dividieren 
 
 Weitere Funktionen folgen...
 
+## Geplant
+- Funktionen
+- Quadratische Funktionen
+- GUI
+- Quadratische Gleichungen
+
+Bleibt gespannt...
+
 ## Wie benutze ich ihn?
 Man lädt sich die Multi-Calculator.exe herunter und startet sie
 
