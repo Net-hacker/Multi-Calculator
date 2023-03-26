@@ -45,6 +45,7 @@ class Zinseszinsen
 				r << "Der Betrag beträgt über " << jj << " Jahre: " << NX << " Euro" << endl;
 				cout << r.str().c_str() << endl;
 			}
+			return NX;
 		}
 	private:
 		stringstream r;
