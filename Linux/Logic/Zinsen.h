@@ -42,7 +42,7 @@ class Zinseszinsen
 			float P = y / 100;
 			for (int jj = 1; jj <= j; jj++) {
 				NX = (NX * P) + x;
-				r << "Der Betrag beträgt über " << jj << " Jahre: " << NX << " Euro" << endl;
+				r << "Der Betrag beträgt über " << jj << " Jahre: " << NX << " Euro";
 				cout << r.str().c_str() << endl;
 			}
 			return NX;
