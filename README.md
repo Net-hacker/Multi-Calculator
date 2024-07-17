@@ -17,6 +17,8 @@ Weitere Funktionen folgen...
 - Quadratische Funktionen
 - GUI
 - Quadratische Gleichungen
+- Integralrechnungen
+- Differentialrechnung
 
 Bleibt gespannt...
 
