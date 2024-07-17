@@ -6,6 +6,8 @@
 #include "Zinsen.h"
 #include "Technik.h"
 #include "Trigeometrie.h"
+#include "Kreis.h"
+#include "Loesungsformel.h"
 
 #include <iostream>
 #include <stdio.h>
@@ -227,6 +229,61 @@ class StartMenu
 			}
 		} while (option != 3);
 	}
+	void PiKreis()
+	{
+		Chooser_Kreis Ch;
+
+		do {
+			Banner_Kreis();
+			cout << "Option: ";
+			cin >> option;
+
+			switch (option) {
+				case 1:
+				system("clear");
+				Ch.KreisUmfang();
+				system("clear");
+				break;
+				case 2:
+				system("clear");
+				Ch.KreisFlaeche();
+				system("clear");
+				break;
+				case 3:
+				system("clear");
+				Ch.KreisAusschnitt();
+				system("clear");
+				break;
+				default:
+				break;
+			}
+		} while (option != 4);
+	}
+	void Loe()
+	{
+		Chooser_Loesungsformel Ch;
+
+		do {
+			Banner_Loesungsformel();
+			cout << "Option: ";
+			cin >> option;
+
+			switch (option) {
+				case 1:
+				system("clear");
+				Ch.P_QFormel();
+				system("clear");
+				break;
+				case 2:
+				system("clear");
+				Ch.A_B_CFormel();
+				system("clear");
+				break;
+				default:
+				break;
+			}
+		} while (option != 3);
+	}
 	private:
 		int option;
 
@@ -296,6 +353,23 @@ class StartMenu
 			cout << "2. Winkelberechnung" << endl;
 			cout << "3. Back" << endl;
 		}
+		void Banner_Kreis()
+		{
+			cout << "Kreis" << endl;
+			cout << "--------" << endl;
+			cout << "1. Kreisumfang" << endl;
+			puts("2. Kreisfläche");
+			cout << "3. Kreisausschnitte" << endl;
+			cout << "4. Back" << endl;
+		}
+		void Banner_Loesungsformel()
+		{
+			puts("Lösungsformel");
+			cout << "--------------" << endl;
+			cout << "1. p-q Formel" << endl;
+			cout << "2. Mitternachtsformel" << endl;
+			cout << "3. Back" << endl;
+		}
 		/*void Banner_Funktionen()
 		{
 
@@ -313,7 +387,9 @@ void Banner()
 	cout << "5. Zinsrechnung" << endl;
 	cout << "6. Technische Rechnungen" << endl;
 	cout << "7. Trigeometrie" << endl;
-	cout << "8. Exit" << endl;
+	cout << "8. Kreis" << endl;
+	puts("9. Lösungsformel");
+	cout << "10. Exit" << endl;
 }
 
 int main()
@@ -362,10 +438,21 @@ int main()
 			system("clear");
 			St.Tri();
 			system("clear");
+			break;
+			case 8:
+			system("clear");
+			St.PiKreis();
+			system("clear");
+			break;
+			case 9:
+			system("clear");
+			St.Loe();
+			system("clear");
+			break;
 			default:
 			break;
 		}
-	} while (option != 8);
+	} while (option != 10);
 	system("clear");
 	return 0;
 }
