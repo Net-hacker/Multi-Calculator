@@ -43,6 +43,7 @@ class Zinseszinsen
 				NX = (NX * P) + x;
 				cout << "Der Betrag betr" << Umlaut::ae << "gt " << Umlaut::ue << "ber " << jj << " Jahre: " << NX << " Euro" << endl;
 			}
+			return 0;
 		}
 };
 
@@ -150,7 +151,7 @@ class Chooser_Zinsen
 			cin >> y;
 			cout << "Die Anzahl der Jahre: ";
 			cin >> j;
-			result = ZZ.ZinsZ(x, y, j);
+			ZZ.ZinsZ(x, y, j);
 			system("pause");
 			x = 0;
 			y = 0;
