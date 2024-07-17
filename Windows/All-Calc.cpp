@@ -6,6 +6,8 @@
 #include "Zinsen.h"
 #include "Technik.h"
 #include "Trigeometrie.h"
+#include "Kreis.h"
+#include "Loesungsformel.h"
 
 #include <iostream>
 using namespace std;
@@ -226,6 +228,61 @@ class StartMenu
 			}
 		} while (option != 3);
 	}
+	void PiKreis()
+	{
+		Chooser_Kreis Ch;
+
+		do {
+			Banner_Kreis();
+			cout << "Option: ";
+			cin >> option;
+
+			switch (option) {
+				case 1:
+				system("cls");
+				Ch.KreisUmfang();
+				system("cls");
+				break;
+				case 2:
+				system("cls");
+				Ch.KreisFlaeche();
+				system("cls");
+				break;
+				case 3:
+				system("cls");
+				Ch.KreisAusschnitt();
+				system("cls");
+				break;
+				default:
+				break;
+			}
+		} while (option != 4);
+	}
+	void Loe()
+	{
+		Chooser_Loesungsformel Ch;
+
+		do {
+			Banner_Loesungsformel();
+			cout << "Option: ";
+			cin >> option;
+
+			switch (option) {
+				case 1:
+				system("cls");
+				Ch.P_QFormel();
+				system("cls");
+				break;
+				case 2:
+				system("cls");
+				Ch.A_B_CFormel();
+				system("cls");
+				break;
+				default:
+				break;
+			}
+		} while (option != 3);
+	}
 	private:
 		int option;
 
@@ -295,6 +352,23 @@ class StartMenu
 			cout << "2. Winkelberechnung" << endl;
 			cout << "3. Back" << endl;
 		}
+		void Banner_Kreis()
+		{
+			cout << "Kreis" << endl;
+			cout << "--------" << endl;
+			cout << "1. Kreisumfang" << endl;
+			cout << "2. Kreisfl" << Umlaut::ae << "che" << endl;
+			cout << "3. Kreisausschnitte" << endl;
+			cout << "4. Back" << endl;
+		}
+		void Banner_Loesungsformel()
+		{
+			cout << "L" << Umlaut::oe << "sungsformel" << endl;
+			cout << "--------------" << endl;
+			cout << "1. p-q Formel" << endl;
+			cout << "2. Mitternachtsformel" << endl;
+			cout << "3. Back" << endl;
+		}
 		/*void Banner_Funktionen()
 		{
 
@@ -312,7 +386,9 @@ void Banner()
 	cout << "5. Zinsrechnung" << endl;
 	cout << "6. Technische Rechnungen" << endl;
 	cout << "7. Trigeometrie" << endl;
-	cout << "8. Exit" << endl;
+	cout << "8. Kreis" << endl;
+	cout << "9. L" << Umlaut::oe << "sungsformel" << endl;
+	cout << "10. Exit" << endl;
 }
 
 int main()
@@ -361,10 +437,21 @@ int main()
 			system("cls");
 			St.Tri();
 			system("cls");
+			break;
+			case 8:
+			system("cls");
+			St.PiKreis();
+			system("cls");
+			break;
+			case 9:
+			system("cls");
+			St.Loe();
+			system("cls");
+			break;
 			default:
 			break;
 		}
-	} while (option != 8);
+	} while (option != 10);
 
 	return 0;
 }
