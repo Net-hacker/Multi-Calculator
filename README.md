@@ -9,6 +9,8 @@ Ein Rechner der nicht nur Addieren, Subtrahieren, Multiplizieren und Dividieren 
 - Ohmesche Gesetz
 - Zinsen, Tageszinsen und Zinseszinsen
 - Trigeometrie
+- Kreis
+- Lösungsformeln
 
 Weitere Funktionen folgen...
 
