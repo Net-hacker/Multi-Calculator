@@ -38,7 +38,3 @@ Auf Linux
 ```
 > g++ -O3 -w -I Logic -static-libgcc -static-libstdc++ All-Calc.cpp -o Multi-Calculator
 ```
-## Bei Fragen oder Problemen
-Ich bin erreichbar über Twitter: @ZocktJuri
-
-Sonst können Probleme auch im Issues Tab besprochen werden
