@@ -25,16 +25,12 @@ Weitere Funktionen folgen...
 Bleibt gespannt...
 
 ## Wie benutze ich ihn?
-Man lädt sich die Multi-Calculator.exe herunter und startet sie
-
 Auf Linux führt man die Datei einfach über das Terminal aus
 
 ## Wenn man es selber compilen will?
 Für MinGW hab ich den Command benutzt
-```
-> g++ -O3 -I Logic -static-libgcc -static-libstdc++ All-Calc.cpp -o Multi-Calculator
-```
 Auf Linux
 ```
-> g++ -O3 -w -I Logic -static-libgcc -static-libstdc++ All-Calc.cpp -o Multi-Calculator
+> make all
+> make static (Für die statische Version)
 ```

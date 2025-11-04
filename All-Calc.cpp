@@ -370,10 +370,6 @@ class StartMenu
 			cout << "2. Mitternachtsformel" << endl;
 			cout << "3. Back" << endl;
 		}
-		/*void Banner_Funktionen()
-		{
-
-		}*/
 };
 
 void Banner()
