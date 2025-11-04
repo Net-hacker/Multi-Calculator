@@ -30,5 +30,6 @@ Man lädt sich die Multi-Calculator.exe herunter und startet sie
 ## Wenn man es selber compilen will?
 
 ```
-> g++ -O3 -I Logic -static-libgcc -static-libstdc++ All-Calc.cpp -o Multi-Calculator
+> make all
+> make static (Für die statische Version)
 ```
